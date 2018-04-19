@@ -164,7 +164,7 @@ main {
 /* estilos do exercício dos aliens */
 #aliens p {
   white-space: nowrap;
-  height: 1em;
+  height: 3em;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -194,6 +194,13 @@ main {
 
 #slide {
   border: 1px solid gray;
+  position: relative;
+}
+
+#slide img {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .controle {
@@ -217,4 +224,8 @@ main {
 
 #proximo {
   float: right;
+}
+
+.oculto {
+    visibility: hidden;
 }
